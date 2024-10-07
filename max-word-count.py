@@ -17,7 +17,7 @@ def extract_articles(xml_file):
     root = tree.getroot()
 
     # Check if the XML uses a namespace, adjust accordingly
-    ns = {'ns': 'http://www.mediawiki.org/xml/export-0.10/'}  # Example namespace; adjust after printing structure
+    ns = {'ns': 'http://www.mediawiki.org/xml/export-0.11/'}  # Example namespace; adjust after printing structure
 
     articles = []
     for page in root.findall(".//ns:page", ns):  # Adjusted to include namespace
