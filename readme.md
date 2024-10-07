@@ -16,3 +16,5 @@ Two python files.
 The script assumes you are using `http://www.mediawiki.org/xml/export-0.11/'  # Example namespace; adjust after printing structure` but it's possible your XML is using a different namespace. 
 
 The script prints out the namespace when running and will throw an error if the namespace is incorrect but in the print it should indicate the correct namespace so you can update the namespace in Line 20 [max-word-count.py#L20] or [one-pdf.py#L20].
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M314FOFQ)
