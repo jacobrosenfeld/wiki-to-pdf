@@ -1,6 +1,6 @@
 # Wiki XML Dump to PDF
 
-The purpose of this is essentially to extract all the text from the xml is a (somewhat) readable format. 
+The purpose of this is essentially to extract all the text from the XML[^1] in a (somewhat) readable format. 
 
 This was used to create PDF files to upload an entire wiki to [NotebookLM](https://notebooklm.google.com/).
 
@@ -19,3 +19,4 @@ The script assumes you are using `http://www.mediawiki.org/xml/export-0.11/'  # 
 
 The script prints out the namespace when running and will throw an error if the namespace is incorrect but in the print it should indicate the correct namespace so you can update the namespace in Line 20 [max-word-count.py](max-word-count.py#L20) or [one-pdf.py](one-pdf.py#L20).
 
+[^1] The XML was generated utilizing [wikiteam3](https://github.com/mediawiki-client-tools/mediawiki-dump-generator)
