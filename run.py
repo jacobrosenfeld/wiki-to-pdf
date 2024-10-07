@@ -49,7 +49,7 @@ def combine_articles(articles):
 # Create a PDF from the combined HTML
 def save_pdf(html_content, output_pdf):
     options = {
-        'page-size': 'Letter',
+        'page-size': 'Letter',  # Page size is set to 'Letter'
         'encoding': "UTF-8"
     }
     pdfkit.from_string(html_content, output_pdf, options=options)
@@ -75,10 +75,9 @@ def create_pdf_from_wiki_dump(xml_file, output_pdf):
     save_pdf(combined_html, output_pdf)
     print(f"PDF saved as {output_pdf}")
 
-# Run the process with your XML dump file and desired PDF output path
-xml_dump_file = "/Users/jacobrosenfeld/Downloads/halac/halachipediacom-20241007-wikidump/halachipediacom-20241007-current.xml"
-output_pdf_file = "combined_articles.pdf"
-
+# Run the process with user input for the XML dump file location
+xml_dump_file = input("Please enter the path to your MediaWiki XML dump file: ")  # Prompt for XML file location
+output_pdf_file = "combined_articles.pdf"  # Desired output PDF file name
 
 # Create the PDF from the wiki dump
 create_pdf_from_wiki_dump(xml_dump_file, output_pdf_file)
