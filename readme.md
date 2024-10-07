@@ -4,8 +4,6 @@ The purpose of this is essentially to extract all the text from the XML[^1] in a
 
 This was used to create PDF files to upload an entire wiki to [NotebookLM](https://notebooklm.google.com/).
 
-Two python files. 
-
 ## Explanation of files
 
 1. [one-pdf.py](one-pdf.py) will convert the xml dump to one large pdf. 
