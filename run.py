@@ -82,4 +82,3 @@ output_pdf_file = "combined_articles.pdf"
 
 # Create the PDF from the wiki dump
 create_pdf_from_wiki_dump(xml_dump_file, output_pdf_file)
-
