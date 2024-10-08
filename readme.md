@@ -7,7 +7,7 @@ This was used to create PDF files to upload an entire wiki to [NotebookLM](https
 ## Explanation of files
 
 1. [one-pdf.py](one-pdf.py) will convert the xml dump to one large pdf. 
-2. [max-word-count.py](max-word-count.py) will break up the text into multiple PDFs with a maximum of 499,999 words to abide by NotebookLM word limits. [You can edit the word limit here] (max-word-count.py#L43).
+2. [max-word-count.py](max-word-count.py) will break up the text into multiple PDFs with a maximum of 499,999 words to abide by NotebookLM word limits. [You can edit the word limit here](max-word-count.py#L43).
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M314FOFQ)
 
